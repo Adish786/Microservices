@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gateway-service
-          image: adish/gateway-service:latest
+          image: adish786/gateway-service:latest
           ports:
             - containerPort: 3003
           env:

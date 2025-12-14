@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: gateway-service
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: gateway-service
   ports:
     - port: 80
       targetPort: 3003
+      nodePort: 30080

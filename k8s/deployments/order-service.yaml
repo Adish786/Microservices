@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: adish786/order-service:latest
+          image: adish786/order-service1:latest
           ports:
             - containerPort: 3002
           env:
